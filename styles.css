@@ -2,15 +2,12 @@
     height: 640px;
     width: 640px;
     display: grid;
-    grid-template-columns: repeat(16, 40px);
     margin: auto;
     padding-top: 20px;
 }
 
 .square{
-    border: 2px solid rgb(0, 0, 0);
-    height: 36px;
-    width: 36px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .painted{
@@ -18,12 +15,21 @@
 }
 
 #reset{
-    width: 300px;
+    position: absolute;
+    width: 250px;
     height: 35px;
     display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+#newsize{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 375px;
 }
 
 #mainContainer{
