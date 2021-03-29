@@ -1,0 +1,11 @@
+#content{
+    border: 2px solid rgb(0, 0, 0);
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.square{
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 40px;
+}
